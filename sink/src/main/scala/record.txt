@@ -1,0 +1,3 @@
+{"news_entry_id":"e1","ts":1587796685000}
+{"news_entry_id":"e1","ts":1587796686000}
+{"news_entry_id":"e2","ts":1587801554000}
