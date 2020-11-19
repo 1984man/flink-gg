@@ -15,12 +15,14 @@
         <module>sink</module>
         <module>udf</module>
         <module>sunjincheng</module>
+        <module>cdc</module>
+        <module>flink-catalog</module>
     </modules>
 
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <flink.version>1.11.0</flink.version>
+        <flink.version>1.11.2</flink.version>
         <scala.binary.version>2.11</scala.binary.version>
     </properties>
 
@@ -158,19 +160,7 @@
             <scope>compile</scope>
         </dependency>
 
-        <dependency>
-            <groupId>org.apache.flink</groupId>
-            <artifactId>flink-parquet_2.11</artifactId>
-            <version>${flink.version}</version>
-            <scope>compile</scope>
-        </dependency>
 
-        <dependency>
-            <groupId>org.apache.parquet</groupId>
-            <artifactId>parquet-avro</artifactId>
-            <version>${flink.version}</version>
-            <scope>compile</scope>
-        </dependency>
 
 
         <dependency>

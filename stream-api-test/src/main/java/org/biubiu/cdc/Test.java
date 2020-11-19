@@ -1,4 +1,4 @@
-package org.test;
+package org.biubiu.cdc;
 
 import static org.apache.flink.core.memory.MemoryUtils.UNSAFE;
 
